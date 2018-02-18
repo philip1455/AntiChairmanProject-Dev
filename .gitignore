@@ -1,0 +1,27 @@
+# The resources belong in a separate repo
+
+
+# Toon dbs shouldn't need to be pushed
+
+astron/databases/astrondb/*.yaml
+
+# Personal stuff
+
+backups/
+logs/
+astron/logs/
+screenshots/
+news/
+
+# PYC files shouldn't push at all now
+
+**/*.pyc
+
+# More personal stuff
+settings.json
+start_game_sparkpin.bat
+config/serv.prc
+toontown/toonbase/ToontownStartServ.py
+save.dat
+fnaf-save.dat
+start_game_miniserver*.bat
